@@ -1,0 +1,19 @@
+<?xml version='1.0' encoding='utf-8'?>
+<package xmlns="http://www.idpf.org/2007/opf" unique-identifier="uuid_id" version="2.0">
+    <metadata xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:opf="http://www.idpf.org/2007/opf">
+        <dc:identifier opf:scheme="calibre" id="calibre_id">8</dc:identifier>
+        <dc:identifier opf:scheme="uuid" id="uuid_id">72b649c3-5d2f-4c9a-ae04-360d7c669bbb</dc:identifier>
+        <dc:title>Perennial Seller</dc:title>
+        <dc:creator opf:file-as="Holiday, Ryan" opf:role="aut">Ryan Holiday</dc:creator>
+        <dc:contributor opf:file-as="calibre" opf:role="bkp">calibre (6.25.0) [https://calibre-ebook.com]</dc:contributor>
+        <dc:date>2017-07-18T00:00:00+00:00</dc:date>
+        <dc:description>&lt;b&gt;How did the movie &lt;i&gt;The Shawshank Redemption&lt;/i&gt; fail at the box office but go on to gross more than $100 million as a cult classic? &lt;/b&gt;&lt;br&gt;&lt;b&gt;How did &lt;i&gt;The 48 Laws of Power&lt;/i&gt; miss the bestseller lists for more than a decade and still sell more than a million copies?&lt;/b&gt;&lt;br&gt;&lt;b&gt;How is Iron Maiden still filling stadiums worldwide without radio or TV exposure forty years after the band was founded?&lt;br&gt;&lt;/b&gt;Bestselling author and marketer Ryan Holiday calls such works and artists perennial sellers. How do they endure and thrive while most books, movies, songs, video games, and pieces of art disappear quickly after initial success? How can we create and market creative works that achieve longevity?&lt;br&gt;Holiday explores this mystery by drawing on his extensive experience working with businesses and creators such as Google, American Apparel, and the author John Grisham, as well as his interviews with the minds behind some of the greatest perennial sellers of our time. His...</dc:description>
+        <dc:publisher>Penguin Publishing Group</dc:publisher>
+        <dc:language>eng</dc:language>
+        <meta name="calibre:timestamp" content="2023-09-05T15:26:11.083637+00:00"/>
+        <meta name="calibre:title_sort" content="Perennial Seller"/>
+    </metadata>
+    <guide>
+        <reference type="cover" title="Cover" href="cover.jpg"/>
+    </guide>
+</package>

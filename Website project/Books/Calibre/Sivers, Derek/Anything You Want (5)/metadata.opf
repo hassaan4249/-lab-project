@@ -1,0 +1,20 @@
+<?xml version='1.0' encoding='utf-8'?>
+<package xmlns="http://www.idpf.org/2007/opf" unique-identifier="uuid_id" version="2.0">
+    <metadata xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:opf="http://www.idpf.org/2007/opf">
+        <dc:identifier opf:scheme="calibre" id="calibre_id">5</dc:identifier>
+        <dc:identifier opf:scheme="uuid" id="uuid_id">d6471ac5-3305-4f55-80a4-e0d124519416</dc:identifier>
+        <dc:title>Anything You Want</dc:title>
+        <dc:creator opf:file-as="Sivers, Derek" opf:role="aut">Sivers, Derek</dc:creator>
+        <dc:contributor opf:file-as="calibre" opf:role="bkp">calibre (6.25.0) [https://calibre-ebook.com]</dc:contributor>
+        <dc:date>2011-06-28T16:00:00+00:00</dc:date>
+        <dc:description>Higher Education</dc:description>
+        <dc:publisher>The Domino Project</dc:publisher>
+        <dc:language>eng</dc:language>
+        <dc:subject>Anything You Want</dc:subject>
+        <meta name="calibre:timestamp" content="2023-09-05T15:24:37.343635+00:00"/>
+        <meta name="calibre:title_sort" content="Anything You Want"/>
+    </metadata>
+    <guide>
+        <reference type="cover" title="Cover" href="cover.jpg"/>
+    </guide>
+</package>
