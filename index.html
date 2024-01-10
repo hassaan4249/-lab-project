@@ -125,33 +125,16 @@
               
         }
 
-        .slogan-header{
-            background-color: rgb(69, 97, 111);
-            width: 50vw;   
-            height: 50px;
-            margin-left: 25vw;
-            margin-top: 5px;
-            border-radius: 25px;
-            overflow: visible;
-            box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
-        }
-        .slogan-header-text{
-            text-align: center;
-            padding-top: auto;
-            font-size: 26px;
-            font-family: Arial;
-            color: rgb(245, 244, 244);
-            padding-top: 1.5%;
-        }
         .book-1-division{
-            width: 75vw;
-            margin-left: 12.5vw;
+            width: 60vw;
+            margin-left: 6vw;
             min-height: 250px;
             background-color: rgb(243, 238, 238);
             margin-top: 3vw;
             border-radius: 10px;
             box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
         }
+        
         .hover :hover{                       
             .book-1-heading{
                 width: 90%;
@@ -166,8 +149,8 @@
                 color: white;
             }
             transition: ease-in;
-            width: 80vw;
-            transition: width 1s;
+            width: 62vw;
+            transition: width 0.5s;
             .book-1-img{
                 max-height: 230px;
                 width: fit-content;
@@ -240,7 +223,6 @@
             color: white;
         }
         .end-display{
-            
             overflow: hidden;  
             height: 250px;
             -webkit-box-shadow: 0px 2px 18px whitesmoke;
@@ -261,6 +243,7 @@
             top: 0;
             margin-top: -15px;
             margin-left: 55px;
+            border-radius: 25px;
         }
         .img-insta{
             height: 40px;
@@ -302,30 +285,48 @@
             margin-top: -14vw;
             margin-left: 60vw
                 }
-        
+             
 
+        .slideshow-container {
+            position: fixed;
+            top: 50%; /* Adjust as needed to center vertically */
+            right: 9.5%;
+            transform: translateY(-50%);
+            width: 20%; /* Adjust as needed */
+            z-index: 1; /* Ensure it's above other elements */
+            transition: opacity 0.75s ease; /* Add a transition for opacity */
+            opacity: 1;
+                }
+        .mySlides {
+             display: none;
+                }
+
+        .slideshow-container img {
+            width: 130%;
+            height: auto;
+            box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+            border-radius: 15px;
+                }
+
+        .copyright-display{
+            position: relative;
+            overflow: hidden;  
+            height: 30px;
+            width: 100vw;
+            background-color: rgb(29, 51, 64);
+            color: aliceblue;
+            text-align: center;
+            font-size: 12px;
+                }   
     </style>
 </head>
 <body style="margin: 0;overflow-x: hidden;background-color: rgb(29,51,64);">
-<!--code testing-->
-<!--
-    <div id="loginForm" style="display: block; position: fixed; top: 50%; left: 50%; transform: translate(-50%, -50%); background: #fff; padding: 20px; border-radius: 10px; box-shadow: 0 0 10px rgba(0, 0, 0, 0.3);">
-        <h2>Login</h2>
-        <form id="userLogin">
-            <label for="username">Username:</label>
-            <input type="text" id="username" name="username" required><br><br>
-            <label for="password">Password:</label>
-            <input type="password" id="password" name="password" required><br><br>
-            <input type="submit" value="Login">
-        </form>
-    </div>
-
-    <div id="websiteContent" style="display: none;">-->
+                            
                                                      <!--HEADER DIVISION-->
                                                     
                                                      <!--MAIN HEADER LOGO-->
     <div class="header-1">
-        <div class="logo-header"><a href="file:///C:/Users/hassa/Documents/Website%20project/Code%20file/Main%20page/main%20page.html" class="logo-header-link"><img src="C:\Users\hassa\Documents\Website project\images\icon-header.jpg" class="logo-header-img"><p class="logo-header-text"><b>READ&RISE</b></p></a></div>
+        <div class="logo-header"><a href="file:///C:/Users/hassa/Documents/Website%20project/Code%20file/Main%20page/index.html" class="logo-header-link"><img src="C:\Users\hassa\Documents\Website project\images\icon-header.jpg" class="logo-header-img"><p class="logo-header-text"><b>READ&RISE</b></p></a></div>
         
                                                     <!--SEARCH BAR HEADER-->
         
@@ -346,11 +347,6 @@
     </div>
        
     
-                                                    <!--SLOGAN DIVISION-->
-
-
-    <div class="slogan-header"><p class="slogan-header-text"><b>The Library to beat them all</b></p></div>
-
                                                      <!--START OF BOOKS-->
                                                            <!---->
                                                            <!---->
@@ -373,7 +369,6 @@
     </a>
     </div>
    
-
 
                                                     <!--BOOK TWO-->
 
@@ -445,9 +440,28 @@
 
 <!--hover effect div end-->
     </div>
+    
+    <div class="slideshow-container">
+        <div class="mySlides">
+            <img src="C:\Users\hassa\Documents\Website project\images\book-4-pg-2.jpg" alt="Book 1">
+        </div>
+        <div class="mySlides">
+            <img src="C:\Users\hassa\Documents\Website project\images\book-3-pg-2.jpg" alt="Book 2">
+        </div>
+                <div class="mySlides">
+            <img src="C:\Users\hassa\Documents\Website project\images\book-2-pg-2.jpg" alt="Book 3">
+        </div>
+                <div class="mySlides">
+            <img src="C:\Users\hassa\Documents\Website project\images\book-1-pg-2.jpg" alt="Book 4">
+        </div>
+                <div class="mySlides">
+            <img src="C:\Users\hassa\Documents\Website project\images\book-5-pg-2.jpg" alt="Book 5">
+        </div>
+        <!-- Add more book covers in similar structure -->
+    </div>
                                                         <!--page-change-->
     <div class="page-change">
-        <a href="page_two.html"><b><p class="page-change-text"> Next Page &rarr;</b></p></a>
+        <a href="page-2.html"><b><p class="page-change-text"> Next Page &rarr;</b></p></a>
     </div>
 
 
@@ -464,58 +478,105 @@
             <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3619.1366361257874!2d67.08562087450967!3d24.89332054394354!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3eb33ed18aeaea6b%3A0xf50bdb260e451aa8!2sBahria%20University%20Karachi%20Campus!5e0!3m2!1sen!2s!4v1701364412358!5m2!1sen!2s" width="400vw" height="200" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
         </div>
     </div>
+    <div class="copyright-display">
+        <p>&copy; READ&RISE - All rights reserved</p>
+    </div>
 
-</div>
+
+
+
+
+
+
+                                                                                <!--JAVASCRIPT SECTION-->
+
+
 
                                         <!--book search functionality with javascript-->
-    <!-- Add this script section before the closing </body> tag -->
-<script>
-    function searchBooks() {
-        // Get input value from the search bar
-        var query = document.getElementById("query").value.toLowerCase();
+  <script>
+  function searchBooks() {
+    let query = document.getElementById("query").value.toLowerCase();
 
-        // Get all book divisions
-        var books = document.getElementsByClassName("book-1-division");
+    let books = document.getElementsByClassName("book-1-division");
+    let slideshow = document.querySelector(".slideshow-container");
 
-        // Loop through each book division to check for matching titles/descriptions
-        for (var i = 0; i < books.length; i++) {
-            var title = books[i].querySelector(".book-1-heading").innerText.toLowerCase();
-            var description = books[i].querySelector(".book-description").innerText.toLowerCase();
+    if (query.trim() !== "") {
+      slideshow.style.display = "none";
 
-            // Check if the query matches the title or description
-            if (title.includes(query) || description.includes(query)) {
-                // Show the book division if it matches the query
-                books[i].style.display = "block";
-            } else {
-                // Hide the book division if it doesn't match the query
-                books[i].style.display = "none";
-            }
+      for (let i = 0; i < books.length; i++) {
+        let title = books[i].querySelector(".book-1-heading").innerText.toLowerCase();
+        let description = books[i].querySelector(".book-description").innerText.toLowerCase();
+
+        if (title.includes(query) || description.includes(query)) {
+          books[i].style.display = "block";
+        } else {
+          books[i].style.display = "none";
         }
+      }
+    } else {
+      slideshow.style.display = "block";
+
+      for (let i = 0; i < books.length; i++) {
+        books[i].style.display = "block";
+      }
+    }
+  }
+
+  document.getElementById("query").addEventListener("keyup", function () {
+    searchBooks();
+  });
+</script>
+<script>
+  let slideIndex = 0;
+  showSlides();
+
+  function showSlides() {
+    let slides = document.getElementsByClassName("mySlides");
+
+    for (let i = 0; i < slides.length; i++) {
+      slides[i].style.display = "none";
+      slides[i].style.opacity = 0;
     }
 
-    // Add an event listener to the search bar input
-    document.getElementById("query").addEventListener("keyup", function () {
-        searchBooks();
-    });
-</script>
-<!--login code testing
-<script>
-    // Function to handle login form submission
-    document.getElementById("userLogin").addEventListener("submit", function(event) {
-        event.preventDefault(); // Prevent form submission
-        var username = document.getElementById("username").value;
-        var password = document.getElementById("password").value;
+    slideIndex++;
 
-        // Check if username and password are correct (for example, "pakistan" and "adnan")
-        if (username.toLowerCase() === "b"  && password.toLowerCase() === "m") {
-            // Show the website content if login is successful
-            document.getElementById("loginForm").style.display = "none";
-            document.getElementById("websiteContent").style.display = "block";
-        } else {
-            alert("Invalid username or password. Please try again.");
-        }
-    });
+    if (slideIndex > slides.length) {
+      slideIndex = 1;
+    }
+
+    slides[slideIndex - 1].style.display = "block";
+
+  
+    slides[slideIndex - 1].style.opacity = 1;
+
+    setTimeout(showSlides, 5000); 
+  }
 </script>
--->
+
+<script>
+let slideshow = document.querySelector(".slideshow-container");
+let endDisplay = document.querySelector(".end-display");
+
+function isElementInViewport(el) {
+  
+}
+
+function handleScroll() {
+  const threshold = 0;
+  const endDisplayTop = endDisplay.getBoundingClientRect().top;
+  const windowHeight = window.innerHeight || document.documentElement.clientHeight;
+
+  if (endDisplayTop - windowHeight <= threshold) {
+    slideshow.style.opacity = "0"; 
+  } else {
+    slideshow.style.opacity = "1"; 
+  }
+}
+
+window.addEventListener("scroll", handleScroll);
+window.addEventListener("resize", handleScroll);
+window.addEventListener("load", handleScroll);
+
+</script>
 </body>
 </html>
